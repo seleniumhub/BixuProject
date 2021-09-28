@@ -23,7 +23,7 @@ public class LoginTest  extends Baseclass{
 	
 	 test = extent.createTest("SWag Testcases");
 	LoginPage page = PageFactory.initElements(driver, LoginPage.class);
-	test.info("SWAG Application open correctly");
+	test.info("SWAG2 Application open correctly");
 	//log.info("this is my log for open application");
 	page.SWAGApplicationLogin(excel.ReadExcelData("Login", 0, 0), excel.ReadExcelData("Login", 0, 1));
 	//log.info("excel read correctly & input correct credentials");
